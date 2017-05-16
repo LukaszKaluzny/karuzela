@@ -11,6 +11,7 @@
 #carousel ul {
 	padding: 0;
 	width: 2000px;
+	margin-left: -300px;
 }
 #carousel li {
 	list-style: none;
