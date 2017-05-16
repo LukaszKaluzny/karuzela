@@ -6,9 +6,9 @@ $(function(){
     lastItem.after(firstItem);
     function changeSlide () {
       carouselList.css({marginLeft:0});
-      setInterval(changeSlide, 3000);
       carouselList.animate({'marginLeft':-400}, 500, moveFirstSlide);
     }
+    setInterval(changeSlide, 3000);
   }
   moveFirstSlide ();
 });
