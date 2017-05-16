@@ -1,23 +1,32 @@
-
-
 #carousel {
-	width: 400px;
-	height: 300px;
-	margin: auto;
-	border: solid 1px red;
-	overflow: hidden;
+  width: 400px;
+  height: 300px;
+  margin: auto;
+  border: solid 1px red;
+  overflow: hidden;
+  position: relative;
 
 }
 #carousel ul {
-	padding: 0;
-	width: 2000px;
-	margin-left: -300px;
+  padding: 0;
+  width: 2000px;
 }
 #carousel li {
-	list-style: none;
-	float: right;
+  list-style: none;
+  float: left;
 }
 #carousel img {
-	width: 400px;
-	/*margin: auto;*/
+  width: 400px;
+}
+.right {
+  position: absolute;
+  top: 50%;
+  left: 90%;
+  transform: translate(-50%);
+}
+.left {
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  transform: translate(-50%);
 }
